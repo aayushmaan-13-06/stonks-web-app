@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 from scipy.stats import skew
 import streamlit as st
 import plotly.express as ff
-import webbrowser
 st.write("""
 
 ## Prepared by:
@@ -340,7 +339,3 @@ Regards,
 
 Aayushmaan Jain
 """)
-
-url = 'https://aayush1036.github.io/profile_website/'
-if st.button('See my website'):
-    webbrowser.open_new_tab(url)
